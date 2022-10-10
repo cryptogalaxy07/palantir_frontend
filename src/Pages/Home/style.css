@@ -1,0 +1,112 @@
+.bannerContainer {
+    --banner-bg: #fff;
+    --banner-text: #1e2124;
+}
+
+.bannerLogoContainer {
+    mix-blend-mode: difference;
+    position: sticky;
+    top: 0;
+    z-index: 600;
+}
+
+.bannerLogoContainer .LogoBackground {
+    left: 30px;
+    position: absolute;
+    top: 32px;
+    z-index: 670;
+}
+
+.bannerLogoContainer .Logo {
+    align-items: center;
+    display: flex;
+    height: 2.22222rem;
+}
+
+.bannerButtonContainer {
+    position: sticky;
+    top: 0;
+    width: auto;
+    align-items: center;
+    display: flex;
+}
+
+.bannerButtonContainer .buttonGroup {
+    flex-direction: row;
+    height: 2.22222rem;
+    justify-content: flex-end;
+    position: absolute;
+    right: 30px;
+    top: 32px;
+    width: auto;
+}
+.bannerButtonContainer .primaryButtonWrapper {
+    font-size: 16px;
+    line-height: 1.4286;
+    display: flex;
+    margin-right: 30px;
+    min-width: 205px;
+}
+
+.bannerButtonContainer .GetStartButton {
+    align-items: center;
+    background: #fff;
+    color: #1e2124;
+    border: 1px solid #1e2124;
+    cursor: pointer;
+    display: flex;
+    height: 2.22222rem;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    width: 100%;
+}
+
+.bannerButtonContainer .GetStartLeftButton {
+    margin-right: 0.33333rem;
+    transition: padding-bottom 0.25s ease-in-out;
+    -webkit-transition: padding-bottom 0.25s ease-in-out;
+    -moz-transition: padding-bottom 0.25s ease-in-out;
+    -ms-transition: padding-bottom 0.25s ease-in-out;
+    -o-transition: padding-bottom 0.25s ease-in-out;
+}
+
+.bannerButtonContainer .secondaryButtonsWrapper {
+    flex-direction: row;
+    font-size: 16px;
+    line-height: 1.4286;
+    bottom: 32px;
+    display: flex;
+}
+.bannerButtonContainer .searchButton {
+    margin-right: -1px;
+    align-items: center;
+    background: #fff;
+    bottom: 32px;
+    color: #1e2124;
+    cursor: pointer;
+    display: flex;
+    height: 2.22222rem;
+    justify-content: center;
+    padding: 0;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    width: 2.22222rem;
+    z-index: 670;
+}
+@media only screen and (min-width: 60em) {
+    .bannerButtonContainer .searchButton {
+        bottom: auto;
+        left: auto;
+        right: 30px;
+        top: 32px;
+    }
+}
